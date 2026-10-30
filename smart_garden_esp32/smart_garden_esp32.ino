@@ -44,7 +44,7 @@ const int CRUDO_MINIMO_VALIDO = 400;
 const int HUMEDAD_CRITICA = 15;
 const unsigned long MANUAL_MAX_SEG   = 120;
 const unsigned long LECTURA_MS       = 500;   // lee el sensor 2 veces por segundo
-const unsigned long TELEMETRIA_MS    = 5000;  // envío de "latido" aunque no cambie nada
+const unsigned long TELEMETRIA_MS    = 1000;  // latido cada segundo: el panel va en tiempo real
 const unsigned long RECONEXION_MS    = 10000;
 
 const bool RELE_ACTIVO_EN_BAJO = true;
