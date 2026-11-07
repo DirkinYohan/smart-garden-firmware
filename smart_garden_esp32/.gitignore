@@ -1,0 +1,4 @@
+# Credenciales (WiFi, MQTT): nunca a GitHub. Plantilla: secrets.example.h
+secrets.h
+# generado por el despliegue anterior en VMs
+mqtt_config.h
